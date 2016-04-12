@@ -3,3 +3,6 @@
 'use strict';
 
 process.title = 'seederizer';
+
+var cli = require('../lib/cli');
+cli();

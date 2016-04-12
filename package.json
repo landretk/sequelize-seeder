@@ -2,20 +2,35 @@
   "name": "seederizer",
   "version": "0.0.1",
   "description": "Parses sequelize models and generates seeder files for sequelize-cli on postgres",
-  "main": "index.js",
+  "repository": "landretk/sequelize-seeder",
+  "engines": {
+    "node": ">=0.12.0"
+  },
   "scripts": {
     "test": "grunt test"
+  },
+  "bin": {
+    "seederizer": "bin/seederizer"
   },
   "author": "Keegan Landreth",
   "license": "MIT",
   "dependencies": {
+    "nopt": "^3.0.6",
     "sequelize": "^3.21.0"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
+    "chance": "^1.0.1",
     "grunt": "^0.4.5",
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-mocha-test": "^0.12.7",
-    "mocha": "^2.4.5"
-  }
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3",
+    "sinon-chai": "^2.8.0"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ]
 }
