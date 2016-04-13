@@ -16,6 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "nopt": "^3.0.6",
+    "nopt-usage": "^0.1.0",
     "sequelize": "^3.21.0"
   },
   "devDependencies": {
