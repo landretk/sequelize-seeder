@@ -8,7 +8,7 @@ module.exports = function (grunt) {
 
             jshint: {
                 src: [
-                    'lib/**/*.js', 'bin/**/*'
+                    'lib/**/*.js', 'bin/seederizer'
                 ],
                 test: [
                     'test/**/*.js'
@@ -45,7 +45,7 @@ module.exports = function (grunt) {
             delta: {
                 jssrc: {
                     files: [
-                        'lib/**/*.js', 'bin/**/*'
+                        'lib/**/*.js', 'bin/seederizer'
                     ],
                     tasks: ['jshint:src', 'mochaTest:specs']
                 }
